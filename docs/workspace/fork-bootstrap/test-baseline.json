@@ -1,0 +1,22 @@
+{
+  "suite": [
+    "test_web_assets",
+    "test_web_pwa",
+    "test_web_connection",
+    "test_web_keys",
+    "test_web_spaces",
+    "test_web_theme",
+    "test_web_history",
+    "test_web_selection"
+  ],
+  "tests_run": 207,
+  "skipped": 0,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "elapsed_seconds": 128.45,
+  "python": "3.12.3",
+  "playwright": "1.63.0",
+  "browser": "/usr/bin/google-chrome",
+  "mode": "local mocked browser fixtures, no live Agent commands"
+}

@@ -1,0 +1,26 @@
+{
+  "live_code_commit": "dd1f49346cb377491a9fee25acaaea9d30254632",
+  "files": {
+    "web/logo.svg": "f4a8400d515fcf50112a952a5b48f5fa6e6b02b4dcb0b483ca92be39f7d7f7a1",
+    "web/app.css": "ca9d28872718422de3113dacf3f7889371db16e61783f747e0b7fb125ad9bcb8",
+    "web/favicon-32.png": "75e7657001f6d9a16eef8141532273b9a0d079666bc5afb96ee2276683eb656a",
+    "web/HackNerdFont-LICENSE.txt": "895c7f40ba2708e201c71145c8f3c5a7c559a68b9642650fe87b220223096039",
+    "web/icon-512.png": "8303e754e5427caffe45ffd79f0b6c9c87489ce8096d1b81f7c16eb49bda6735",
+    "web/HackNerdFont-Regular.woff2": "efad7abab4a280a5ddaf2690ca08cda53ad59ad425a871fb4d8e99e90368325a",
+    "web/sw.js": "f9ec77fc3b366de332e5935a36f25bafa251bfc9480fbdebdf71f52085c40307",
+    "web/index.html": "11078c149cd95263c6b854ba40a5c4b7fa547e1fef132173a886a244ebe83be7",
+    "web/apple-touch-icon.png": "977778d7f998a5bb7df2054bbe1b9f0b9fbacbdf8bf83ae1b5523a27b699ba92",
+    "web/icon-192.png": "21d6a0ef8222de47429fd7b8db9f3a65b12c588acc93aae90e33b268ebb9ea1b",
+    "web/js/state.js": "9faee3aae264888d51b9a4cba5e1bddda09dd6f54890c3dd0bd2eed44b39da70",
+    "web/js/mirror.js": "157a273c9bec4e93fb0679e95126de0adf6cc5f8d09806f0233abbae2a6e2d9e",
+    "web/js/diff.js": "f69728c8e1d88065eec3f927857422746afabcd5da245c0907d5878c259029bf",
+    "web/js/triage.js": "021504c4a767540f5b4dacd886de79e98c22f40f5afb09fb3f8b3fd87e382786",
+    "web/js/push.js": "4491f079e71fcd8b977ffe7c553301ae4b2ae98a703ce302fbe8ce3fbdcfbb26",
+    "web/js/palette.js": "4592f1d93ebeabef45e625a87c06eddcd84f37d03fdc3bc296983df58b6a919d",
+    "web/js/spaces.js": "1993592c062d3e107f208ecc060fbd05d5f20311865345d78888ad63543a86ee",
+    "web/js/cards.js": "0171659c4e6563b5f82d3b0eea44094bfd7f7cf4e7af52bfb54f423ff0885636",
+    "web/js/markdown.js": "d0645ea1d4cdac4ae4b89faa49aa3e603a01cb3873da15eb452d0de5fd98aaa7",
+    "web/js/nav.js": "fed5efe6d8ead188434da6a1560864b231eb557916eefe7e57ed2e44013932ab"
+  },
+  "identical": true
+}
