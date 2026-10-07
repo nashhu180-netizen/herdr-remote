@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => bind());
         <button class="nav-key" style="grid-area:tab" onclick="fireKey('Tab')">Tab</button>
         <button class="nav-key" style="grid-area:enter;flex-direction:column;gap:1px" onclick="fireKey('Enter')">⏎<span style="font-size:9px;opacity:0.75">Enter</span></button>
         <button class="nav-key mod-key" style="grid-area:ctrl" id="modCtrl" onclick="armMod('ctrl')">Ctrl</button>
-        <button class="nav-key mod-key" style="grid-area:shift" id="modShift" onclick="armMod('shift')">⇧</button>
+        <button class="nav-key mod-key" style="grid-area:shift" id="modShift" onclick="armMod('shift')" aria-label="Shift modifier" title="Combine Shift with another key">Shift</button>
         <button class="nav-key" style="grid-area:pgdn" onclick="fireKey('PageDown')">PgDn</button>
         <button class="nav-key" style="grid-area:left" onclick="fireKey('Left')">←</button>
         <button class="nav-key" style="grid-area:down" onclick="fireKey('Down')">↓</button>

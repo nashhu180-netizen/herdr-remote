@@ -1,0 +1,29 @@
+{
+  "viewports": [
+    {
+      "width": 390,
+      "bodyWidth": 390,
+      "shiftLabel": "Shift",
+      "buttonWidth": 49.421875,
+      "buttonScroll": 47,
+      "buttonClient": 47,
+      "queued": [
+        "shift+Tab"
+      ]
+    },
+    {
+      "width": 360,
+      "bodyWidth": 360,
+      "shiftLabel": "Shift",
+      "buttonWidth": 45.71875,
+      "buttonScroll": 44,
+      "buttonClient": 44,
+      "queued": [
+        "shift+Tab"
+      ]
+    }
+  ],
+  "combination": "Shift -> Tab -> Send captured shift+Tab",
+  "real_agent_input": false,
+  "javascript_exceptions": []
+}
