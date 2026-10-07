@@ -7,6 +7,10 @@
 验收：手机 Keys 按钮显示 Shift，不溢出；Shift→Tab→Send 仍组成 shift+Tab，验证仅拦截浏览器发送，不操作真实 agent。
 步骤：只改标签和辅助说明；运行相关既有测试；真实 Chrome 核手机布局与组合键；检查源树无并行修改，再把已验证提交合入本地运行版本。
 环境：已有 Python venv、Chrome、Node，测试无需安装依赖。当前源树 clean，live 页面每次读取 index.html，不需重启服务。
-状态：候选验证通过，待本地合入与运行页面回读。网址公网响应正常，但未验证用户手机关闭梯子后的网络可达性。
+状态：完成。本地 main 已合入，运行中的本机和公网 HTML 均显示 Shift。网址公网响应正常，但未验证用户手机关闭梯子后的网络可达性。
 
 验证：11 项既有 web assets 测试通过；真实 Chrome 在 360/390 宽度无横向溢出、Shift 文字未裁切；Shift→Tab→Send 捕获 shift+Tab。发送边界为 fake sendKeys，无真实 Agent 输入。截图 keys-360.png/keys-390.png，结构证据 browser-verification.json。
+
+本机与公网认证 GET 均返回 200，按钮文本 Shift；页面按请求读取文件，无需重启服务。未推送第三方远端。阶段汇报@shift-key-label-delivered。
+
+复跑浏览器证据：使用本项目已有 venv Python 执行 docs/workspace/shift-key-label/verify-browser.py；测试会隔离 Chrome 并拦截发送。

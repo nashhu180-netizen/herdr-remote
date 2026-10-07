@@ -1,0 +1,13 @@
+{
+  "local": {
+    "shift_label": "Shift",
+    "http": 200
+  },
+  "public": {
+    "shift_label": "Shift",
+    "http": 200
+  },
+  "code_commit": "ef34972aa13bad1c138fa0a178555df4714488b8",
+  "service_restarted": false,
+  "phone_without_proxy_verified": false
+}
